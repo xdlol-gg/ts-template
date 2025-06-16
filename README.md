@@ -1,7 +1,7 @@
 
-# ts-easy 🛠️
+# ts-template 🛠️
 
-**ts-easy** is your minimalist TypeScript starter for Node.js projects. No fluff, just the essentials to get you up and running with TypeScript, ESLint, Prettier, and more. Perfect for initiating any TypeScript project, whether it's a CLI tool, library, or something entirely different.
+**ts-template** is your minimalist TypeScript starter for Node.js projects. No fluff, just the essentials to get you up and running with TypeScript, ESLint, Prettier, and more. Perfect for initiating any TypeScript project, whether it's a CLI tool, library, or something entirely different.
 
 ## Features ✨
 
@@ -19,8 +19,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ts-easy.git
-cd ts-easy
+git clone https://github.com/xdlol-gg/ts-template.git
+cd ts-template
 ```
 
 ### 2. Install Dependencies
@@ -50,9 +50,9 @@ pnpm build
 ### Project Structure 📁
 
 ```bash
-ts-easy/
+ts-template/
 ├── src/
-│   └── main.ts      	# Entry point for your TypeScript project
+│   └── index.ts      	# Entry point for your TypeScript project
 ├── .vscode/
 │   └── settings.json 	# VSCode workspace settings
 │   └── extensions.json # Recommended VSCode extensions
@@ -61,17 +61,17 @@ ts-easy/
 ├── .prettierrc      	# Prettier configuration
 ├── tsconfig.json    	# TypeScript configuration
 ├── package.json     	# Project metadata and scripts
-└── pnpm-lock.yaml   	# Dependency lockfile
+└── yarn.lock   	    # Dependency lockfile
 ```
 
 ### Scripts 📝
 
-* **pnpm dev:** Run your project with autoreload.
-* **pnpm start:** Run your build.
-* **pnpm lint:** Lint your TypeScript code using ESLint.
-* **pnpm lint:fix:** Lint and fix your TypeScript code using ESLint.
-* **pnpm format:** Format your code with Prettier.
-* **pnpm build:** Bundle your project using tsup.
+* **yarn dev:** Run your project with autoreload.
+* **yarn start:** Run your build.
+* **yarn lint:** Lint your TypeScript code using ESLint.
+* **yarn lint:fix:** Lint and fix your TypeScript code using ESLint.
+* **yarn format:** Format your code with Prettier.
+* **yarn build:** Bundle your project using tsup.
 
 ### Why ts-easy? 🤔
 
